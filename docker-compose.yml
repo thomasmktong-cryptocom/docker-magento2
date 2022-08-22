@@ -8,7 +8,7 @@ services:
       - db
     volumes: 
       - magento-data:/var/www/html  
-      - ../crypto-pay-checkout-magento2/code/Cdcpay:/var/www/html/app/code/Cdcpay
+      - ../crypto-pay-magento2/code/Cdcpay:/var/www/html/app/code/Cdcpay
     env_file:
       - env
   db:
